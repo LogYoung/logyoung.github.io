@@ -1,0 +1,294 @@
+[
+	{
+		"title":"MySQL 的初次学习",
+		"imgSrc":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524718845645&di=933f610dc98fc6968f1643217a5866d5&imgtype=0&src=http%3A%2F%2Fs4.51cto.com%2Foss%2F201710%2F31%2Fe653d4c911c1adb9f420fd9f3a5c027c.jpg-wh_651x-s_1272787504.jpg",
+		"p":"由于个人原因，最近对数据库比较感兴趣，看了很多数据库之后，决定从MySQL开始着手开始学习，接下来就是我的一些学习经验和一些随堂笔记。。。。",
+		"time":"2018-4-25",
+		"id":0,
+		"smtitle":"MySQL学习",
+		"textdata":{"id":0,
+					"title":"MySQL的初次学习",
+					"author":"YOUNG",
+					"time":"2018-4-25",
+					"indp":["本身是从事前端工作的我，对数据库也是比较感兴趣，一直以来想学一下数据库的内容，于是乎在了解了一下数据库大概之后选择从MySQL入手开始学习，本身之前也只用过mongodb,稍稍有一点数据库的大概了解，接下来就是我的学习过程了。",
+							"首先先了解一下MySQL到底什么？众所周知MySQL是一个数据库管理系统，MySql是MySql.AB公司开发的，采用客户/服务器模型的开放源码关系型SQL数据库管理系统，它可以在多种操作系统上运行。为了方便理解，我们可以把Mysql比作一个银行，比如中国建设银行。银行是用来管钱的，可以存钱到银行，也可以取出来；银行有很多种，中国建设银行是银行里的一种，它的名字叫中国建设银行， 同理，数据库也有很多种，Mysql是其中的一种，它的名字叫Mysql，别的数据库系统还有Oracle，DB2，SQLServer等。"
+							,"我是结合Vue+node.js+MySQL来展开学习的。首先来说说安装吧。"]
+					
+					}
+	},
+	{
+		"title":"Vue的生命钩子函数总结",
+		"imgSrc":"../../static/logo.png",
+		"p":"总结了一下Vue的生命钩子函数，方便以后查阅和了解使用。",
+		"time":"2018-4-26",
+		"id":1,
+		"smtitle":"Vue生命钩子函数",
+		"textdata":{"id":1,
+					"title":"Vue的生命钩子函数总结",
+					"author":"YOUNG",
+					"time":"2018-4-26",
+					"indp":["这次，我查阅了一些网上的资料，整合总结一下Vue的生命钩子函数，因为记性不好经常忘记所以这次。整合在一起，方便我以后的查阅和观看。",
+							"首先还是照例来了解一下什么是vue的钩子函数吧，我个人理解，就像他名字的前俩个字一样，'生命'就是在说这个函数所发生的时间到他结束的时间就是他的生命，也就是说vue自带的在不同时间点发生的一些函数回调。"
+							]
+					
+					}
+	},
+	{
+		"title":"Vue router 的路由生命钩子",
+		"imgSrc":"../../static/logo.png",
+		"p":"偶尔看到有一个总结路由生命钩子函数的文章觉得很有用处就写下来了",
+		"time":"2018-4-27",
+		"id":2,
+		"smtitle":"Vue路由生命钩子",
+		"textdata":{"id":2,
+					"title":"Vue router 的路由生命钩子",
+					"author":"YOUNG",
+					"time":"2018-4-27",
+					"indp":["今天在为了解决一个项目问题的时候查阅了很多资料。看到了一篇生命钩子函数的文章觉得很受益，于是乎记下来再说",
+							"直接来代码，不要废话"
+							]
+					
+					}
+	},
+	{
+		"title":"My Sql 的一个学习教程的网站",
+		"imgSrc":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524718845645&di=933f610dc98fc6968f1643217a5866d5&imgtype=0&src=http%3A%2F%2Fs4.51cto.com%2Foss%2F201710%2F31%2Fe653d4c911c1adb9f420fd9f3a5c027c.jpg-wh_651x-s_1272787504.jpg",
+		"p":"由于对My sql 的语句不是很熟练专门找了一个大佬写的文章，里面有很详细的my sql 的学习教程",
+		"time":"2018-4-28",
+		"id":3,
+		"smtitle":"MySQL学习网站",
+		"textdata":{"id":3,
+					"title":"My Sql 的一个学习教程的网站",
+					"author":"YOUNG",
+					"time":"2018-4-28",
+					"indp":["今天的东西很简单，网上找了一些mysql 的学习资料，这一片我觉得很不错，于是记录下来",
+							"这是一个My sql 的教程从安装到指令到高级进阶都有，主要是存下来方便以后的查阅;简单的几个句子增，删，改，查都有。甚至更多",
+							"增：INSERT INTO table(column1,column2...)VALUES (value1,value2,...); ps：这是最简单的，还有很多网站都有",
+							"删：DELETE FROM table_name WHERE condition; ps：搭配where 语句还有更多的用法",
+							"改：UPDATE [LOW_PRIORITY] [IGNORE] table_name SET column_name1 = expr1,column_name2 = expr2,...WHERE condition; ps:也就是所谓的更新数据库",
+							"查：SELECT lastname, firstname, jobtitle FROM employees; ps:查询的方式有很多，具体我就不详细举例了。因为网站链接非常的详细",
+							"接下来就是教程的网站：(https://www.yiibai.com/mysql/select-statement-query-data.html)"
+							]
+					
+					}
+	},
+	{
+		"title":"记录一下我有时候看到的一些有用的连接",
+		"imgSrc":"../../static/touxiang.jpg",
+		"p":"简单的记录一些我收藏的比较有用的网站吧",
+		"time":"2018-4-28",
+		"id":4,
+		"smtitle":"有用的链接",
+		"textdata":{"id":4,
+					"title":"webpack vue-cli element-ui rem 的转换 es6 转换 还有一些乱七八糟的",
+					"author":"YOUNG",
+					"time":"2018-4-28",
+					"indp":["这一篇的东西很杂，主要是记录一些我使用过的一些学习网站",
+							"webpack 学习网站：(http://www.jianshu.com/p/42e11515c10f)",
+							"vue-cli 安装vue 项目流程：(https://www.cnblogs.com/wisewrong/p/6255817.html)",
+							"elment-ui 学习网战:(http://element-cn.eleme.io/#/zh-CN/component/radio)",
+							"rem 转换网站:(http://alurk.com/)",
+							"es6   转换网站：(https://babeljs.io/repl/#?babili=false&browsers=&build=&builtIns=false&code_lz=AYHgrgNgBAlgJgXgEQGcDGAnA9hCAjLADyQD4AoASCopAhhJBQAcBDAOxMFuEwQADB_cxAD0zdiQBMABgCMAdgC0k0bIBsUUZIBcogMyC65ajT2B36MB3qYCDNQKrygAqVA-26BUo0AisYHx_3fUrVa9Rqw6ACfT6CwhwSMvKKKpIAHJqSrvoeeoDPBoCBkbZx7lSeDEEkgNEhAUI-YlJyCrIArFCSWuri5ekGWbaAhuaAb3KA9GaAA3KAEnIuAnoZhl45PPyFIiGl4aoa2g0J9KaWto59A4163iL-YzmTYcpV0WrzmUmpNqeCkCTAQA&debug=false&circleciRepo=&evaluate=true&lineWrap=false&presets=es2015%2Creact%2Cstage-2&prettier=false&targets=&version=6.26.0)"
+							,"环形轮播demo:(http://www.jq22.com/jquery-info17056)",
+							"折叠轮播demo：(http://www.jq22.com/yanshi11931)",
+							"Chart: (http://www.chartjs.org/docs/latest/configuration/tooltip.html)",
+							"png图片压缩网站 ：(https://tinypng.com/)",
+							"科讯的常用标签介绍:(http://www.cnblogs.com/liuswi/archive/2013/07/18/3198362.html)",
+							"运用js 让图片平滑轮播 ：(http://www.cnblogs.com/liuswi/archive/2012/11/05/2754647.html)",
+							"日本魔性 人体时间 js:(<script charset='Shift_JIS' src='http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_wh.js'></script>)",
+							"博客园前端论坛网站：(https://www.cnblogs.com/cate/108703/)"
+							]
+					
+					}
+	},
+	{
+		"title":"async 同步操作异步的新方法 ES2017",
+		"imgSrc":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1525428420167&di=f0e3f325ddf575f34957caf107a3f43c&imgtype=0&src=http%3A%2F%2Fimg.mp.sohu.com%2Fq_mini%2Cc_zoom%2Cw_640%2Fupload%2F20170720%2F01a6c3d3ff3b4e308448e3563aba3b47_th.jpg",
+		"p":"async ES2017 也就是ES8 新增的一个东西  Async Functions (异步函数) ，这次是简易的学习一下。",
+		"time":"2018-5-1",
+		"id":5,
+		"smtitle":"async",
+		"textdata":{"id":5,
+					"title":"ES2017 新特性：Async Functions (异步函数)",
+					"author":"YOUNG",
+					"time":"2018-5-1",
+					"indp":["偶然间看见ES2017 的 Async 这个东西，觉得很有意思就记下来了，于是乎开始找了一些文档和资料来了解和学习",
+							"这篇文章来自于：(http://www.css88.com/archives/7731)",
+							"接下来开始我的学习了。"
+							]
+					
+					}
+	},
+	{
+		"title":"Javascript 获取url参数，hash值 ，cookie",
+		"imgSrc":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526635219090&di=34e0f229f89c65811b6f6489807900fb&imgtype=0&src=http%3A%2F%2Fstatic.open-open.com%2Flib%2FuploadImg%2F20150313%2F20150313214803_798.jpg",
+		"p":"通过js 获取url 的参数 的一些简单的函数封装",
+		"time":"2018-5-18",
+		"id":6,
+		"smtitle":"js获取hash，search",
+		"textdata":{"id":6,
+					"title":"Javascript 获取url参数，hash值 ，cookie",
+					"author":"YOUNG",
+					"time":"2018-5-18",
+					"indp":["偶然的项目工作中需要操作到search的参数，于是乎顺便整理封装一下，我们平时可能用到的url的参数"
+							
+							]
+					
+					}
+	},
+	{
+		"title":"箭头函数的学习",
+		"imgSrc":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526635219090&di=34e0f229f89c65811b6f6489807900fb&imgtype=0&src=http%3A%2F%2Fstatic.open-open.com%2Flib%2FuploadImg%2F20150313%2F20150313214803_798.jpg",
+		"p":"es6 新增了一个一种全新的函数- 箭头函数，那么我们就来学习和了解一下什么是箭头函数。",
+		"time":"2018-5-21",
+		"smtitle":"箭头函数",
+		"id":7,
+		"textdata":{"id":7,
+					"title":"箭头函数的学习",
+					"author":"YOUNG",
+					"time":"2018-5-21",
+					"indp":["首先当然还是先来我们的学习网站链接： （https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/001438565969057627e5435793645b7acaee3b6869d1374000）",
+							"箭头函数相当于匿名函数，并且简化了函数定义。"
+							
+							]
+					
+					}
+	},
+	{
+		"title":"generator 函数的学习",
+		"imgSrc":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526635219090&di=34e0f229f89c65811b6f6489807900fb&imgtype=0&src=http%3A%2F%2Fstatic.open-open.com%2Flib%2FuploadImg%2F20150313%2F20150313214803_798.jpg",
+		"p":"generator（生成器）是ES6标准引入的新的数据类型。一个generator看上去像一个函数，但可以返回多次。",
+		"time":"2018-5-21",
+		"id":8,
+		"smtitle":"generator",
+		"textdata":{"id":8,
+					"title":"generator 函数的学习",
+					"author":"YOUNG",
+					"time":"2018-5-21",
+					"indp":["generator 函数是我在看箭头函数的时候，意外看见的一种全新的函数，由ES6定义而来，",
+							"generator（生成器）是ES6标准引入的新的数据类型。一个generator看上去像一个函数，但可以返回多次。顾明思议，就是一种全新的函数，可以返回多次值的一种函数"
+							]
+					
+					}
+	},
+	{
+		"title":"SQL语句排序",
+		"imgSrc":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524718845645&di=933f610dc98fc6968f1643217a5866d5&imgtype=0&src=http%3A%2F%2Fs4.51cto.com%2Foss%2F201710%2F31%2Fe653d4c911c1adb9f420fd9f3a5c027c.jpg-wh_651x-s_1272787504.jpg",
+		"p":"SQL语句排序，SQL语句的排序的用法",
+		"time":"2018-5-22",
+		"id":9,
+		"smtitle":"SQL语句排序",
+		"textdata":{"id":9,
+					"title":"SQL语句排序",
+					"author":"YOUNG",
+					"time":"2018-5-22",
+					"indp":["今天来整理一下SQL语句排序的语句用法以及语法等。"
+							]
+					
+					}
+	},
+	{
+		"title":"javascript:Array 对象的一些操作方法",
+		"imgSrc":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526635219090&di=34e0f229f89c65811b6f6489807900fb&imgtype=0&src=http%3A%2F%2Fstatic.open-open.com%2Flib%2FuploadImg%2F20150313%2F20150313214803_798.jpg",
+		"p":"整理了一些Array 的操作方法，用来处理数据",
+		"time":"2018-5-30",
+		"id":10,
+		"smtitle":"jsArray对象",
+		"textdata":{"id":10,
+					"title":"javascript:Array 对象的一些操作方法",
+					"author":"YOUNG",
+					"time":"2018-5-30",
+					"indp":["因为经常在我们的工作和平时应用需求当中需要对字符串，数组，对象等等数据去进行一系列的操作。所以在这里整理一下。今天我们来整理的就是Array数组对象的操作方法",
+							"那么就开始我们的整理吧。"
+							]
+					
+					}
+	},
+	{
+		"title":"AJAX 跨域解决方案",
+		"imgSrc":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526635219090&di=34e0f229f89c65811b6f6489807900fb&imgtype=0&src=http%3A%2F%2Fstatic.open-open.com%2Flib%2FuploadImg%2F20150313%2F20150313214803_798.jpg",
+		"p":"AJAX 跨域问题，也是我们日常工作中经常遇见的问题。",
+		"id":11,
+		"time":"2018-6-5",
+		"smtitle":"AJAX跨域问题",
+		"textdata":{"id":11,
+					"title":"AJAX 跨域解决方案",
+					"author":"YOUNG",
+					"time":"2018-6-5",
+					"indp":["偶然的一次项目整理中，需要吧几个页面的表单整合在一起，因为网站不同从而出现了跨域问题，于是乎我开始查阅一些跨域的问题资料",
+							"整理了几种跨域的方式，如下...."
+							]
+					
+					}
+	},
+	{
+		"title":"LocalStorage和sessionStorage之间的区别",
+		"imgSrc":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526635219090&di=34e0f229f89c65811b6f6489807900fb&imgtype=0&src=http%3A%2F%2Fstatic.open-open.com%2Flib%2FuploadImg%2F20150313%2F20150313214803_798.jpg",
+		"p":"今天整理一下浏览器存储的LocalStorage和sessionStorage之间的区别",
+		"time":"2018-6-8",
+		"id":12,
+		"smtitle":"web Storage",
+		"textdata":{"id":12,
+					"title":"LocalStorage和sessionStorage之间的区别",
+					"author":"YOUNG",
+					"time":"2018-6-8",
+					"indp":["这个东西也比较简单，相信很多朋友也是知道的，今天还是来简单的整理一下LocalStorage和sessionStorage之间的区别",
+							" 众所周知，自从HTML 5 标准出现之后，本地化存储一度成为热搜的关键词。在HTML 5 最开始时，本地存储有两种方式：一种是web Storage，另一种是web SQL。由于web SQL的实现是基于SQLite，它更倾向于DataBase方向，且W3C官方在2011年11月宣布不在维护web SQL规范，故其API接口目前已经不属于HTML 5的范畴。因此，目前我们常讲的HTML 5本地存储，多指的是web Storage。"
+							]
+					
+					}
+	},
+	{
+		"title":"Vue 引入外部js 不是从node中下载的文件方法",
+		"imgSrc":"../../static/logo.png",
+		"p":"在我们的平时工作中，或许多多少少需要引用到许多外部的js来丰富我们的网页内容，有以下几个解决办法....",
+		"time":"2018-6-26",
+		"id":13,
+		"smtitle":"Vue引用外部js",
+		"textdata":{"id":13,
+					"title":"Vue 引入外部js 不是从node中下载的文件方法",
+					"author":"YOUNG",
+					"time":"2018-6-26",
+					"indp":["在我们的平时工作中多多少少需要引入一些外部的js去进行操作，列入jq，swiper等还有许多我们自己所编写的插件去进行操作，那么我现在整理了几个引入文件的方式"
+						
+							]
+					
+					}
+	},
+	{
+		"title":"Echarts 的学习整理笔记",
+		"imgSrc":"../../static/echarts.png",
+		"p":"在现在的网页应用中，我们时常会看到很多很多的图表，表格等很多数据显示方式.....",
+		"time":"2018-7-20",
+		"id":14,
+		"smtitle":"Echarts 笔记",
+		"textdata":{"id":14,
+					"title":"Echarts 的学习整理笔记",
+					"author":"YOUNG",
+					"time":"2018-7-20",
+					"indp":["目前网页发展越来越迅速，我们在网页中所需要展示的东西也越来越多元化了，从而我们当然也有需要在网页中展示各式各样的表格，图表等数据的项目需求出现了",
+						    "那么，我们今天就来看一看百度推出来的一个特别好用特别强大的Echarts插件吧。"
+						
+							]
+					
+					}
+	},
+	{
+		"title":"通过nodejs吧网页挂在局域网和提供后台数据接口",
+		"imgSrc":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526635219090&di=34e0f229f89c65811b6f6489807900fb&imgtype=0&src=http%3A%2F%2Fstatic.open-open.com%2Flib%2FuploadImg%2F20150313%2F20150313214803_798.jpg",
+		"p":"在现在的网页应用中，我们时常会看到很多很多的图表，表格等很多数据显示方式.....",
+		"time":"2018-7-20",
+		"id":15,
+		"smtitle":"Nodejs 搭建服务器后台",
+		"textdata":{"id":15,
+					"title":"Nodejs web服务器和后台",
+					"author":"YOUNG",
+					"time":"2018-7-24",
+					"indp":["今天来整理一下nodejs 的运用，偶然的情况，需要用到ajax长连接，于是乎想了一下干脆自己用nodejs 去搭建一个后台服务器上吧。",
+						    "就来整理一下node的运用，首先今天说一下node 的俩种运用方式，第一个当然就是如何把你的本地页面挂在到局域网上，第二种就是搭建一个简易的后台可以通过ajax去访问后台拿到数据。"
+						
+							]
+					
+					}
+	}
+]
