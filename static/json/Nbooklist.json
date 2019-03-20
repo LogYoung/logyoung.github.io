@@ -277,7 +277,7 @@
 		"title":"通过nodejs吧网页挂在局域网和提供后台数据接口",
 		"imgSrc":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526635219090&di=34e0f229f89c65811b6f6489807900fb&imgtype=0&src=http%3A%2F%2Fstatic.open-open.com%2Flib%2FuploadImg%2F20150313%2F20150313214803_798.jpg",
 		"p":"在现在的网页应用中，我们时常会看到很多很多的图表，表格等很多数据显示方式.....",
-		"time":"2018-7-20",
+		"time":"2018-7-24",
 		"id":15,
 		"smtitle":"Nodejs 搭建服务器后台",
 		"textdata":{"id":15,
@@ -287,6 +287,23 @@
 					"indp":["今天来整理一下nodejs 的运用，偶然的情况，需要用到ajax长连接，于是乎想了一下干脆自己用nodejs 去搭建一个后台服务器上吧。",
 						    "就来整理一下node的运用，首先今天说一下node 的俩种运用方式，第一个当然就是如何把你的本地页面挂在到局域网上，第二种就是搭建一个简易的后台可以通过ajax去访问后台拿到数据。"
 						
+							]
+					
+					}
+	},
+	{
+		"title":"关于nodejs 挂载本地页面到局域网的根目录指向问题",
+		"imgSrc":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526635219090&di=34e0f229f89c65811b6f6489807900fb&imgtype=0&src=http%3A%2F%2Fstatic.open-open.com%2Flib%2FuploadImg%2F20150313%2F20150313214803_798.jpg",
+		"p":"很久没来更新博客了，去年七月份到现在，因为换了一份工作，所以比较繁忙，一直没怎么来更新了今天来更新一下。",
+		"time":"2019-3-20",
+		"id":16,
+		"smtitle":"Nodejs 挂载页面跟目标指向",
+		"textdata":{"id":16,
+					"title":"Nodejs 挂载页面跟目标指向问题",
+					"author":"YOUNG",
+					"time":"2019-3-20",
+					"indp":["一直没空来更新一下博客,今天就简单的来说一下之前项目遇到的一个事情吧.",
+						    "因为是前后端分离，使用的是svn来控制版本的,但是我们项目又需要用到vue来做前端的框架，很多东西如果不使用nodejs去搭建前端的开发环境的话不太好做,但是大家也知道我们后端人员使用的是java,java在项目文件根目录和我们前端启动的环境又完全不一样。java的所有资源类的文件是放在static当中，然而页面文件又是在views文件当中,从而我们要在外部去启动一个nodejs环境就出现了问题，今天就来说一下如何解决该问题。"
 							]
 					
 					}
